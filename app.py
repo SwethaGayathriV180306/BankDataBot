@@ -9,8 +9,8 @@ api_key = os.getenv("GEMINI_API_KEY")
 
 genai.configure(api_key=api_key)
 
-st.set_page_config(page_title="Gemini BankDataBot", layout="centered")
-st.title("🏦 Gemini BankDataBot (Gemini 1.5 Flash)")
+st.set_page_config(page_title="BankDataBot", layout="centered")
+st.title("🏦 BankDataBot ")
 
 num_records = st.slider("Number of records to generate:", 5, 50, 10)
 
